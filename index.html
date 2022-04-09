@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit conversion</title>
+    <link href="index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="flex-container">
+      <div id="top-part">
+        <p id="title">Metric/Imperial unit conversion</p>
+        <div class="input-section">
+          <input type="number" id="user-input" />
+          <div class="btn-div">
+            <button id="calculate" class="btn" onclick="calc()">
+              CALCULATE
+            </button>
+            <button id="reset" class="btn" onclick="reset()">RESET</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="bottom-part">
+        <div id="result-output">
+          <p class="heading">Length (Meter/Feet)</p>
+          <p>
+            <span id="length-feet" class="results">0 meters = 0.000 feet</span>
+            |
+            <span id="length-meters" class="results"
+              >0 feet = 0.000 meters</span
+            >
+          </p>
+          <p class="heading">Volume (Litres/Gallons)</p>
+          <p>
+            <span id="volume-gallons" class="results"
+              >0 litres = 0.000 gallons</span
+            >
+            |
+            <span id="volume-litres" class="results"
+              >0 gallons = 0.000 litres</span
+            >
+          </p>
+          <p class="heading">Mass (Kilograms/Pounds)</p>
+          <p>
+            <span id="mass-pounds" class="results">0 kilos = 0.000 pounds</span>
+            |
+            <span id="mass-kilos" class="results">0 pounds = 0.000 kilos</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,161 @@
+ *  {
+   color: white;
+   font-family: 'inter', sans-serif;
+ }
+ 
+  #top-part {
+
+  height: 250px;
+  background-image: linear-gradient(
+    45deg,
+    hsl(0deg 80% 67%) 0%,
+    hsl(353deg 88% 69%) 28%,
+    hsl(346deg 95% 70%) 41%,
+    hsl(339deg 99% 70%) 49%,
+    hsl(332deg 100% 71%) 55%,
+    hsl(325deg 97% 72%) 59%,
+    hsl(320deg 96% 68%) 64%,
+    hsl(316deg 93% 65%) 69%,
+    hsl(311deg 89% 60%) 75%,
+    hsl(305deg 85% 55%) 84%,
+    hsl(300deg 98% 45%) 100%
+  );
+  margin: auto;
+  width:800px
+
+}
+
+#bottom-part  {
+  background-color: #18244A;
+  height: 300px;
+  width: 800px;  
+}
+
+#result-output {
+  margin: 40px 0px 0px 0px
+}
+
+p {
+    text-align: center;
+}
+
+.flex-container {
+  display:flex;
+  flex-direction: column;
+  width: 800px;
+  margin: auto;
+
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btn  {
+  color :white;
+  background: transparent;
+  width: 150px;
+  height: 50px;
+  margin: auto;
+  font-size: medium;
+  
+}
+
+.heading  {
+  font-weight: bold;
+  font-size: 14;
+}
+
+.resuts {
+  font-weight: lighter;
+  font-size: 14;
+}
+
+#title  {
+  font-size: large;
+  font-weight: bolder;
+  margin: 30px 0px 0px 0px;
+}
+
+input {
+  background-color: transparent;
+  border-bottom: 1cm;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  width: 80%;
+  height: 100px;
+  font-size: xxx-large;
+  font-weight: bolder;
+  text-align: center;
+  margin: 20px 80px 15px 80px;
+  
+
+}
+
+#calculate  {
+  margin: 0px 100px 0px 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+.input-section  {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around
+
+}
+
+input {
+  
+  background: transparent;
+  border: 0;
+  height:100px;
+
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.btn-div {
+  display: flex;
+  justify-content:space-evenly;
+  
+}
+
+
+
+
+
+*/
